@@ -141,6 +141,7 @@ class Admin::FacilitiesController < AdminController
       :state,
       :country,
       :pin,
+
       :facility_type,
       :facility_size,
       :latitude,
