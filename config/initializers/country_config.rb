@@ -94,6 +94,19 @@ class CountryConfig
       sms_country_code: ENV["SMS_COUNTRY_CODE"] || "+44",
       supported_genders: %w[male female transgender],
       patient_line_list_show_zone: false
+    },
+    NP: {
+        abbreviation: "NP",
+        name: "Nepal",
+        extended_region_reports: true,
+        states: COUNTRYWISE_STATES["Nepal"],
+        time_zone: ENV["DEFAULT_TIME_ZONE"] || "Asia/Kathmandu",
+        sms_country_code: ENV["SMS_COUNTRY_CODE"] || "+977",
+        dashboard_locale: ENV["DEFAULT_PREFERRED_DASHBOARD_LOCALE"] || "en_IN",
+        faker_locale: "en-IND",
+        supported_genders: %w[male female transgender],
+        patient_line_list_show_zone: false,
+        custom_drug_category_order: %w[hypertension_ccb hypertension_arb hypertension_diuretic]
     }
   }.with_indifferent_access.freeze
 
