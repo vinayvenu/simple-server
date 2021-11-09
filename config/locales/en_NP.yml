@@ -1,0 +1,34 @@
+en_NP:
+  facility_group: "upazila"
+  facility_group_zone: "union"
+  helpers:
+    label:
+      facility:
+        name: "Name"
+        facility_type: "Facility Type *"
+        size: "Size *"
+        street_address: "House and road number"
+        village_or_colony: "Area"
+        zone: "Municipality *"
+        district: "District *"
+        state: "Province *"
+        country: "Country *"
+      facility_group:
+        state: "Province"
+      drug:
+        frequency:
+          one_per_day: "OD"
+          two_per_day: "BD"
+          three_per_day: "TDS"
+          four_per_day: "QDS"
+    submit:
+      facility:
+        create: "Save facility"
+        update: "Save facility"
+  activerecord:
+    facility:
+      facility_size:
+        community: "CC"
+        small: "USC"
+        medium: "DH"
+        large: "Zonal/Subregional/Regional/Central Hospitals"
