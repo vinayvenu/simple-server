@@ -2,7 +2,7 @@
   "v1": [
     {
       "country_code": "NP",
-      "endpoint": "https://simpledemo.samanvayfoundation.org/api/",
+      "endpoint": "https://nepal.demo.simple.samanvayfoundation.org/api/",
       "display_name": "Nepal",
       "isd_code": "91"
     }
@@ -16,7 +16,7 @@
         "deployments": [
           {
             "display_name": "Nepal",
-            "endpoint": "https://simpledemo.samanvayfoundation.org/api/"
+            "endpoint": "https://nepal.demo.simple.samanvayfoundation.org/api/"
           }
         ]
       }

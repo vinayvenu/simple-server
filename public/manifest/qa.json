@@ -2,27 +2,33 @@
   "v1": [
     {
       "country_code": "IN",
-      "endpoint": "https://api-qa.simple.org/api/",
+      "endpoint": "https://182a-49-207-223-175.ngrok.io/api/",
       "display_name": "India",
       "isd_code": "91"
     },
     {
       "country_code": "BD",
-      "endpoint": "https://api-qa.simple.org/api/",
+      "endpoint": "https://182a-49-207-223-175.ngrok.io/api/",
       "display_name": "Bangladesh",
       "isd_code": "880"
     },
     {
       "country_code": "ET",
-      "endpoint": "https://api-qa.simple.org/api/",
+      "endpoint": "https://182a-49-207-223-175.ngrok.io/api/",
       "display_name": "Ethiopia",
       "isd_code": "251"
     },
     {
       "country_code": "LK",
-      "endpoint": "https://api-qa.simple.org/api/",
+      "endpoint": "https://182a-49-207-223-175.ngrok.io/api/",
       "display_name": "Sri Lanka",
       "isd_code": "94"
+    },
+    {
+      "country_code": "NP",
+      "endpoint": "https://nepal.demo.simple.samanvayfoundation.org/api/",
+      "display_name": "Nepal",
+      "isd_code": "91"
     }
   ],
   "v2": {
@@ -34,7 +40,7 @@
         "deployments": [
           {
             "display_name": "India",
-            "endpoint": "https://api-qa.simple.org/api/"
+            "endpoint": "https://182a-49-207-223-175.ngrok.io/api/"
           }
         ]
       },
@@ -45,7 +51,7 @@
         "deployments": [
           {
             "display_name": "Bangladesh",
-            "endpoint": "https://api-qa.simple.org/api/"
+            "endpoint": "https://182a-49-207-223-175.ngrok.io/api/"
           }
         ]
       },
@@ -56,7 +62,7 @@
         "deployments": [
           {
             "display_name": "Ethiopia",
-            "endpoint": "https://api-qa.simple.org/api/"
+            "endpoint": "https://182a-49-207-223-175.ngrok.io/api/"
           }
         ]
       },
@@ -67,7 +73,18 @@
         "deployments": [
           {
             "display_name": "Sri Lanka",
-            "endpoint": "https://api-qa.simple.org/api/"
+            "endpoint": "https://182a-49-207-223-175.ngrok.io/api/"
+          }
+        ]
+      },
+      {
+        "country_code": "NP",
+        "display_name": "Nepal",
+        "isd_code": "91",
+        "deployments": [
+          {
+            "display_name": "Nepal",
+            "endpoint": "https://nepal.demo.simple.samanvayfoundation.org/api/"
           }
         ]
       }
